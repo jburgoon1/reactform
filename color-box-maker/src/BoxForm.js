@@ -30,11 +30,11 @@ return (
 
     <form onSubmit={handleSubmit}>
         <label htmlFor="width">Width:</label>
-        <input type="range" id="width" name="width" value={style.width} onChange={handleChange}></input>
+        <input type="range" id="width" name="width" value={style.width} onChange={handleChange} placeholder="width"></input>
         <label htmlFor="height">Height:</label>
-        <input type="range" id="height" name="height" value={style.height} onChange={handleChange}></input>
+        <input type="range" id="height" name="height" value={style.height} onChange={handleChange} placeholder="height"></input>
         <label htmlFor="bgcolor">Background Color:</label>
-        <input type="text" name="backgroundColor" id='bgcolor' value={style.backgroundColor} onChange={handleChange}></input>
+        <input type="text" name="backgroundColor" id='bgcolor' value={style.backgroundColor} onChange={handleChange} placeholder="Background Color"></input>
         <button >Make a new box!</button>
     </form>
 
